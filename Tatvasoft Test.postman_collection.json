@@ -1,0 +1,218 @@
+{
+	"id": "e5585b26-a265-943c-de71-49f1872aa600",
+	"name": "Tatvasoft Test",
+	"description": "",
+	"order": [
+		"fcbc9ef8-935c-731b-b236-3a03c8460a7f",
+		"5d0360ac-41a4-a99c-78e4-7e5e9b0ad725",
+		"924f0f9d-192a-8a11-2877-c39eda729001",
+		"d172f142-cfd9-74b5-87f2-f6d275a08b60",
+		"6075a909-d281-e3f0-ef76-cfa9c5cf309b",
+		"893b07e4-75e3-0b6d-c882-d4a671579f3e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1641292507114,
+	"owner": "14063533",
+	"public": false,
+	"requests": [
+		{
+			"id": "5d0360ac-41a4-a99c-78e4-7e5e9b0ad725",
+			"headers": "Content-Type: application/json\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/addBlog",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641303602221,
+			"name": "Add Blog",
+			"description": "",
+			"collectionId": "e5585b26-a265-943c-de71-49f1872aa600",
+			"responses": [],
+			"rawModeData": "{\n\t\"user_id\" : 2,\n\t\"email\" : \"pawanparmar652@gmail.com\",\n\t\"title\" : \"test\",\n\t\"description\" : \"Lorem Ipsum is simply dummy text of the printing and typesetting industry.\",\n\t\"publised_date\" : \"2022-01-10\",\n\t\"modify_date\" : \"2022-01-09\",\n\t\"status\" : \"0\",\n\t\"category_id\" : 1,\n\t\"auther\" : \"Pawan\"\n}"
+		},
+		{
+			"id": "6075a909-d281-e3f0-ef76-cfa9c5cf309b",
+			"headers": "Content-Type: application/json\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/blogsList",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641304369106,
+			"name": "Blogs List",
+			"description": "",
+			"collectionId": "e5585b26-a265-943c-de71-49f1872aa600",
+			"responses": [],
+			"rawModeData": "{\n\t\"user_id\" : 1,\n\t\"email\" : \"pawanparmar652@gmail.com\",\n\t\"publised_date\" : \"\",\n\t\"auther\" : \"\",\n\t\"category_id\" : \"\"\n}"
+		},
+		{
+			"id": "893b07e4-75e3-0b6d-c882-d4a671579f3e",
+			"headers": "Content-Type: application/json\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/deleteBlog",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641303596043,
+			"name": "Delete Blog",
+			"description": "",
+			"collectionId": "e5585b26-a265-943c-de71-49f1872aa600",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\" : 3,\n\t\"user_id\" : 12,\n\t\"email\" : \"pawanparmar652@gmail.com\"\n}"
+		},
+		{
+			"id": "924f0f9d-192a-8a11-2877-c39eda729001",
+			"headers": "Content-Type: application/json\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhd2FucGFybWFyNjUyQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE2NDEzMDMzNzMsImV4cCI6MTY0MTM4OTc3M30.ZjDeMtfRruQt7w3XlXgv69NZgcpCSNV3pzDtZOXV2ZU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/editBlog",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641303600151,
+			"name": "Edit Blog",
+			"description": "",
+			"collectionId": "e5585b26-a265-943c-de71-49f1872aa600",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\" : \"3\",\n\t\"user_id\" : 1,\n\t\"email\" : \"pawanparmar652@gmail.com\",\n\t\"title\" : \"Testtttttttt\",\n\t\"description\" : \"ksjdkas dkas dka\",\n\t\"publised_date\" : \"2022-01-22\",\n\t\"modify_date\" : \"2022-01-19\",\t\n\t\"status\" : \"0\",\n\t\"category_id\" : 3,\n\t\"auther\" : \"Pawan pARMAR\"\n}"
+		},
+		{
+			"id": "d172f142-cfd9-74b5-87f2-f6d275a08b60",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641304937184,
+			"name": "Login",
+			"description": "",
+			"collectionId": "e5585b26-a265-943c-de71-49f1872aa600",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"deepika@gmail.com\",\n\t\"password\" : \"12345678\"\n}"
+		},
+		{
+			"id": "fcbc9ef8-935c-731b-b236-3a03c8460a7f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641304866730,
+			"name": "Register",
+			"description": "",
+			"collectionId": "e5585b26-a265-943c-de71-49f1872aa600",
+			"responses": [],
+			"rawModeData": "{\n\t\"first_name\" : \"Deepika\",\n\t\"last_name\" : \"Parmar\",\n\t\"email\" : \"deepika@gmail.com\",\n\t\"password\" : \"12345678\",\n\t\"dob\" : \"19-09-2000\",\n\t\"role\" : 2\n}"
+		}
+	]
+}
